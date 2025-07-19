@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script type="module" src="/scripts/menu.js"></script>
+</head>
+
+<body>
+  <main class="alata">
+    <header class="page-header">
+      <section class="page-hero">
+        <div class="menu-bar">
+          <picture class="menu-bar__logo">
+            <img class="logo__img" src="/images/logo.svg" alt="Loopstudios">
+          </picture>
+          <div class="menu-bar__menu">
+            <button id="btnOpen" class="btn-menu-open"><img src="/images/icon-hamburger.svg"
+                alt="menu button icon"></button>
+            <nav class="menu-bar__nav">
+              <ul class="menu__bar-items">
+                <li class="menu-bar__item"><a href="" class="menu-bar__link">About</a></li>
+                <li class="menu-bar__item"><a href="" class="menu-bar__link">Careers</a></li>
+                <li class="menu-bar__item"><a href="" class="menu-bar__link">Events</a></li>
+                <li class="menu-bar__item"><a href="" class="menu-bar__link">Products</a></li>
+                <li class="menu-bar__item"><a href="" class="menu-bar__link">Support</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <h1 class="page__title josefin-sans-light">
+          Immersive<br>
+          experiences<br>
+          that deliver<br>
+        </h1>
+      </section>
+    </header>
+    <article class="introduction">
+      <picture class="introduction__picture">
+        <source media="(min-width: 768px)" srcset="/images/desktop/image-interactive.jpg">
+        <img class="introduction__img" src="/images/mobile/image-interactive.jpg" alt="creepy guy with a vr set">
+      </picture>
+      <section class="introduction__text">
+        <h2 class="introduction__title josefin-sans-light">THE LEADER IN INTERACTIVE VR</h2>
+        <p class="introduction__p">
+          Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </section>
+    </article>
+
+    <article class="projects">
+      <h2 class="project__title josefin-sans-light">Our creations</h2>
+      <ul class="projects__list">
+        <li class="projects__item">
+          <a class="projects__link projects__link--earth">
+            <span class="projects__link__title josefin-sans-light">Deep<br>earth</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--arcade">
+            <span class="projects__link__title josefin-sans-light">Night<br>arcade</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--soccer">
+            <span class="projects__link__title josefin-sans-light">Soccer<br>team VR</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--grid">
+            <span class="projects__link__title josefin-sans-light">The<br>grid</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--above">
+            <span class="projects__link__title  josefin-sans-light">From up<br>above VR</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--pocket">
+            <span class="projects__link__title josefin-sans-light">Pocket<br>borealis</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--curiosity">
+            <span class="projects__link__title josefin-sans-light">The<br>curiosity</span>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--fisheye">
+            <span class="projects__link__title josefin-sans-light">Make it<br>fisheye</span>
+          </a>
+        </li>
+      </ul>
+      <a class="projects__link-all alata" href="">See all</a>
+    </article>
+    <footer class="page-footer">
+      <div class="page-footer__column">
+        <picture class="page-footer__logo">
+          <img class="logo__img" src="/images/logo.svg" alt="Loopstudios">
+        </picture>
+        <nav class="page-footer__nav">
+          <ul class="page-footer__links">
+            <li class="page-footer__item"><a href="" class="page-footer__link">About</a></li>
+            <li class="page-footer__item"><a href="" class="page-footer__link">Careers</a></li>
+            <li class="page-footer__item"><a href="" class="page-footer__link">Events</a></li>
+            <li class="page-footer__item"><a href="" class="page-footer__link">Products</a></li>
+            <li class="page-footer__item"><a href="" class="page-footer__link">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="page-footer__column">
+        <div class="page-footer__social">
+          <ul class="page-footer__social-links">
+            <li class="page-footer__social-item"><a href="" class="page-footer__social-link"><img src="/images/icon-facebook.svg" alt="facebook icon" class="page-footer__social-icon"></a></li>
+            <li class="page-footer__social-item"><a href="" class="page-footer__social-link"><img src="/images/icon-twitter.svg" alt="twitter icon" class="page-footer__social-icon"></a></li>
+            <li class="page-footer__social-item"><a href="" class="page-footer__social-link"><img src="/images/icon-pinterest.svg" alt="pinterest icon" class="page-footer__social-icon"></a></li>
+            <li class="page-footer__social-item"><a href="" class="page-footer__social-link"><img src="/images/icon-instagram.svg" alt="instagram icon" class="page-footer__social-icon"></a></li>
+          </ul>
+        </div>
+        <p class="page__footer-copyright">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <dialog id="mobileMenu" class="mobile-menu">
+    <header class="mobile-menu__header">
+      <picture class="mobile-menu__logo">
+        <img class="logo__img" src="/images/logo.svg" alt="Loopstudios">
+      </picture>
+      <button id="btnClose" class="btn-menu-close">
+        <img class="btn-menu-close__img" src="/images/icon-close.svg" alt="x icon">
+      </button>
+    </header>
+    <nav class="mobile-menu__nav">
+      <ul class="mobile-menu-items">
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">About</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Careers</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Events</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Products</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Support</a></li>
+      </ul>
+    </nav>
+  </dialog>
+</body>
+
+</html>
